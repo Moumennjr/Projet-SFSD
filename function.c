@@ -16,7 +16,7 @@ char *rand_nom() {
 
 
 // fonction pour generer le prenom
-char *rand_prenom() {
+char *rand_prenom() { 
 	static const char lettres[] = "abcdefghijklmnopqrstuvwxyz";
 	char prenom = (char) malloc (34 * sizeof(char));
 	int taille = rand() % 30 + 4;
